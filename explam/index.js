@@ -1,7 +1,7 @@
 /*@flow*/
 
-function split(str) {
-  return str.split(' ')
+function add(x: number, y: number): number {
+  return x + y
 }
 
-split(11)
+add('Hello', 11)

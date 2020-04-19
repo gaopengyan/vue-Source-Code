@@ -20,4 +20,17 @@ function split(str) {
 split(11)
 ```
 
-![flow执行图片](../img/flow.png)
+![flow执行图片](./img/flow.png)
+
+
+```javascript
+/*@flow*/
+
+function add(x: number, y: number): number {
+  return x + y
+}
+
+add('Hello', 11)
+```
+
+![flow执行图片](./img/flow2.png)
