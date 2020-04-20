@@ -21,7 +21,7 @@ function split(str) {
 split(11)
 ```
 
-![flow执行图片](./img/flow.png)
+![flow执行图片](../img/flow.png)
 
 
 ```javascript
@@ -35,7 +35,7 @@ function add(x: number, y: number): number {
 add('Hello', 11)
 ```
 
-![flow执行图片](./img/flow2.png)
+![flow执行图片](../img/flow2.png)
 
 ```javascript
 <!-- 类和对象 -->
@@ -108,7 +108,7 @@ Flow 提出了一个 libdef 的概念，可以用来识别这些第三方库或�
 
 这里 [libs] 配置的是 flow，表示指定的库定义都在 flow 文件夹内。我们打开这个目录，会发现文件如下：
 
-![flow执行图片](./img/flow3.png)
+![flow执行图片](../img/flow3.png)
 
 ### 总结
 
