@@ -108,7 +108,16 @@ Flow 提出了一个 libdef 的概念，可以用来识别这些第三方库或�
 
 这里 [libs] 配置的是 flow，表示指定的库定义都在 flow 文件夹内。我们打开这个目录，会发现文件如下：
 
-![flow执行图片](../img/flow3.png)
+```
+flow
+├── compiler.js        # 编译相关
+├── component.js       # 组件数据结构
+├── global-api.js      # Global API 结构
+├── modules.js         # 第三方库定义
+├── options.js         # 选项相关
+├── ssr.js             # 服务端渲染相关
+├── vnode.js           # 虚拟 node 相关
+```
 
 ### 总结
 
